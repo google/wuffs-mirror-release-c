@@ -21,6 +21,12 @@ everything else, this repository is much smaller and changes much less
 frequently.
 
 
+## Updates
+
+This repository's `release/c` directory is manually updated by the
+`script/sync.sh` shell script, which also logs to [`sync.txt`](./sync.txt).
+
+
 # Disclaimer
 
 This is not an official Google product, it is just code that happens to be
