@@ -14,11 +14,11 @@ People who just want to *use* Wuffs-the-library in its C form (instead of
 *modifying* its Wuffs form or otherwise needing Wuffs-the-language tools) only
 need that one C file.
 
-This repository's [`release/c`](./release/c) directory contains that C file
-(snapshotted at various versions). It mirrors the `release/c` directory of the
-[original Wuffs repository](https://github.com/google/wuffs), but by excluding
-everything else, this repository is much smaller and changes much less
-frequently.
+This repository's [`release/c`](./release/c) directory contains that C file (at
+various versions). It mirrors the `release/c` directory of the [original Wuffs
+repository](https://github.com/google/wuffs) (except for the "unsupported
+snapshot" version). By excluding everything else, this repository is much
+smaller and changes much less frequently.
 
 
 ## Updates
