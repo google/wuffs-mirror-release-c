@@ -27,7 +27,7 @@ echo -n "Sibling directory (../wuffs) git revision is " >> sync.txt
 cd ../wuffs
 git rev-parse HEAD >> ../wuffs-mirror-release-c/sync.txt
 cd ../wuffs-mirror-release-c
-echo "Manifest (sha512sum values, filenames, versions):" >> sync.txt
+echo "Manifest (sha256sum values, filenames, versions):" >> sync.txt
 
 for f in ../wuffs/release/c/*; do
   f=${f##*/}
@@ -43,7 +43,7 @@ for f in ../wuffs/release/c/*; do
   fi
 
   cp ../wuffs/release/c/$f release/c
-  sha512sum release/c/$f >> sync.txt
+  sha256sum release/c/$f >> sync.txt
   set +e
   VER=$(grep "^#define WUFFS_VERSION_STRING " release/c/$f)
   set -e
