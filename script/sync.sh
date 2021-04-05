@@ -37,11 +37,6 @@ for f in ../wuffs/release/c/*; do
     continue
   fi
 
-  # Temporarily deny-list v0.3 until a beta is released.
-  if [ $f = "wuffs-v0.3.c" ]; then
-    continue
-  fi
-
   cp ../wuffs/release/c/$f release/c
   sha256sum release/c/$f >> sync.txt
   set +e
