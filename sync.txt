@@ -1,8 +1,8 @@
-script/sync.sh ran on 2022-01-19
-Sibling directory (../wuffs) git revision is 418847fe941d60c9f947dc5c6150bc1303737c5b
+script/sync.sh ran on 2022-06-03
+Sibling directory (../wuffs) git revision is 5392d503e39951174ba5f4bbe3090d674a9ccc18
 Manifest (sha256sum values, filenames, versions):
 bb28889a02c5d89edf6544ded21495462d1f998f8ffa5d095f53ca5db29e2937  release/c/README.md
 3b6a0c78f663bb495d1972fbb2a87c717d70fbac5ea8cc1a50cb9afaa4b03f92  release/c/wuffs-v0.2.c
     #define WUFFS_VERSION_STRING "0.2.0+2078.20191219"
-91cf4bf590cf1be96ab5937db969775eda3e5170c1080148fd8815e3250127f0  release/c/wuffs-v0.3.c
-    #define WUFFS_VERSION_STRING "0.3.0-beta.14+3273.20220118"
+e7aee4535b3de050a9576558a703f5c1f665e9012d0d7a252da118f83fa8b1f1  release/c/wuffs-v0.3.c
+    #define WUFFS_VERSION_STRING "0.3.0-beta.15+3345.20220603"
